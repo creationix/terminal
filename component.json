@@ -1,0 +1,6 @@
+{
+  "name": "terminal",
+  "main": "terminal.js",
+  "scripts": ["terminal.js"],
+  "styles": ["terminal.css"]
+}

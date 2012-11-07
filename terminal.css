@@ -1,0 +1,7 @@
+.terminal {
+  font-family: Ubuntu Mono, Moncao, monospace;
+}
+.terminal .reverse-video {
+  background-color: #fff;
+  color: #000;
+}
