@@ -314,8 +314,10 @@ Terminal.prototype.blur = function() {
  * Global Events for key handling
  */
 
+var alreadyBound;
 Terminal.bindKeys = function() {
-  if (Terminal.focus) return;
+  if (alreadyBound) return;
+  alreadyBound = true;
 
   // We could put an "if (Terminal.focus)" check
   // here, but it shouldn't be necessary.
